@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right top,#65dfc9, #6cdbed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Glass{
+    height: 70vh;
+    width: 70%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7 ), rgba(255,255,255,0.3));
+    border-radius: 10px;
+    z-index: 1;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    flex-direction: row;
+}
+.Circle1, .Circle2{
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    position: absolute;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255,255,0.8),
+    rgba(255, 255, 255, 0.3) );
+}
+.Circle1{
+    top: 10%;
+    left: 10%;
+    border-radius: 50%;
+}
+.Circle2{
+    bottom: 10%;
+    right: 10%;
+    border-radius: 50%;
+}
+.profile{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    font-size: larger;
+}
+.movies{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.icons >img{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.film >img{
+    height: 180px;
+    width: 180px;
+
+}
+.films >img{
+    height: 180px;
+    width: 180px;
+}
+.Nfilm >img{
+    height: 180px;
+    width: 180px;
+
+}
